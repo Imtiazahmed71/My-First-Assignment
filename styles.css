@@ -3,15 +3,24 @@
     padding: 0;
 }
 
+
 .open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-nav {
+/* #nav-section{
+   
+} */
+.container{
+    /* border: 01px solid red; */
     display: flex;
-    justify-content: space-between;
-    margin: 25px 80px;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 1600px;
+    padding: 20px 0px;
 }
+
+
 .menu ul{
     display: flex;
     justify-content: space-between;
@@ -27,6 +36,7 @@ nav {
 }
 
 .btn{
+    max-width: 194px;
     padding: 20px 30px;
     border-radius: 5px;
     color: aliceblue;
@@ -34,6 +44,10 @@ nav {
     border: none;
     cursor: pointer;
     font-weight: 400;
+}
+.btn:hover{
+    box-shadow: 0 6px 15px ;
+    transform: translateY(-2px);
 }
 
 .side-button{
@@ -46,13 +60,16 @@ nav {
     cursor: pointer;
     font-weight: 400;
 }
+/* Banner section */
 #banner{
     background: url("assets/hero-bg.png");
-    
+    max-width: 1600px;
+    max-height: 674px ;
 }
 #banner .banner-container{
     text-align: center;
-    padding: 100px;
+    padding: 115px 120px 180px;
+    max-width: 1360px;
 }
 .early-access-btn{
     background-color: aliceblue;
@@ -62,19 +79,26 @@ nav {
     margin-bottom: 20px;
 }
 .banner-title h1{
-    font-size: 60px;
-    margin-bottom: 20px;
+
+    font-size: 72px;
+    line-height: 84px;
+    margin-bottom: 16px;
+    /* max-width: 770px; */
+
 }
 .banner-title p{
-    color: aliceblue;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
 /* Notes section */
 #notes{
-    margin: 0 auto 20px;
+    /* margin: 0 auto 20px; */
     padding-top: 40px;
     text-align: center;
+    max-width: 1600px;
 }
 #notes .section-heading h5{
     font-size: 55px;
@@ -93,14 +117,14 @@ nav {
    
     margin: 40px 180px 0;
 }
-.section-card .info-card{
+.info-card{
     /* border: 1px solid red; */
     padding: 50px 10px 5px;
-    box-shadow: 0 20px 50px 5px lightslategrey;
+    box-shadow: 0 15px 50px 0 lightslategrey;
 
 }
 .info-card img{
-    background-color:crimson;
+    background-color:#F95555;
     padding: 10px;
     border-radius: 50%;
 }
@@ -109,14 +133,26 @@ nav {
 }
 /* Second Brain Section */
 #second-brain{
-    padding: 100px 80px;
+    max-width: 1600px;
+    /* border: 1px solid red; */
+}
+.second-brain-container{
+    padding: 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    max-width: 1360px;
+    gap: 60px;
 }
-#second-brain .brain-info{
+.brain-img{
+    max-width: 600px;
+}
+.brain-info{
+    max-width: 700px;
+}
+/* #second-brain .brain-info{
     padding-left: 50px ;
-}
+} */
 .brain-info h4{
     font-size: 15px;
     color: forestgreen ;
@@ -129,19 +165,55 @@ nav {
     color: lightslategrey;
     margin-bottom: 10px;
 }
+/* .brain-info ul{
+    max-width: 322px;
+} */
 .brain-info ul li{
     font-weight: 300px;
     margin-bottom: 5px;
-    list-style:circle; 
+    list-style:none; 
 }
 /* Early Access Section */
 #early-access {
-    text-align: center;
-    background-color: wheat;
-    padding: 50px 0;
-    margin: 20px 120px;
-    border-radius: 5px;
+    
+    
+    /* padding: 50px 0;
+    margin: 20px 120px; */
+    
+    max-width: 1600px;
+    padding: 2px 120px 120px 120px;
 }
-#early-access .access-info h1 , p, button , p{
+.access-info{
+    max-width: 1360px;
+    background-color:#F7F6F2;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 1240px;
+    max-height: 338px;
+}
+.access-info h1{
+    font-size: 40px;
+}
+/* #early-access .access-info h1 , p, button , p{
     margin-bottom: 10px;
+} */
+/* Footer Section */
+#about{
+    max-width: 1600px;
+    background-color: #001931;
+    color: white;
+    
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1360px;
+    padding: 120px;
+    
+
+}
+.last-sec{
+    padding : 0 120px 34px;
+    text-align: center;
 }
