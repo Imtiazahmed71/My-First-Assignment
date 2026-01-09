@@ -92,11 +92,11 @@ nav {
     justify-content: space-around;
     /* box-sizing: border-box; */
    
-    margin: 0 180px;
+    margin: 40px 180px 0;
 }
 .section-card .info-card{
     /* border: 1px solid red; */
-    padding: 25px 10px 5px;
+    padding: 50px 10px 5px;
     box-shadow: 0 20px 50px 5px lightslategrey;
 
 }
@@ -107,4 +107,32 @@ nav {
 }
 .info-card p{
     max-width: 240px;
+}
+/* Second Brain Section */
+#second-brain{
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#second-brain .brain-info{
+    padding-left: 50px;
+}
+.brain-info h4{
+    font-size: 15px;
+    color: forestgreen ;
+    margin-bottom: 10px;
+}
+.brain-info h1{
+    margin-bottom: 10px;
+}
+.brain-info p{
+    color: lightslategrey;
+    margin-bottom: 10px;
+}
+.brain-info ul li{
+    font-weight: 300px;
+    margin-bottom: 5px;
+    list-style:circle;
+    
 }
