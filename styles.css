@@ -36,9 +36,7 @@ nav {
     font-weight: 400;
 
 }
-.banner-button button{
-    
-}
+
 .side-button{
     padding: 20px 30px;
     margin-left: 10px;
@@ -71,4 +69,42 @@ nav {
 .banner-title p{
     color: aliceblue;
     margin-bottom: 20px;
+}
+
+/* Notes section */
+#notes{
+    margin: 0 auto 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+#notes .section-heading h5{
+    font-size: 55px;
+}
+#notes .section-heading p{
+    font-size: 18px;
+    color: lightslategray;
+}
+#notes .section-heading{
+    padding-bottom: 20px;
+}
+.section-card{
+    display: flex;
+    justify-content: space-around;
+    /* box-sizing: border-box; */
+   
+    margin: 0 180px;
+}
+.section-card .info-card{
+    /* border: 1px solid red; */
+    padding: 25px 10px 5px;
+    box-shadow: 0 20px 50px 5px lightslategrey;
+
+}
+.info-card img{
+    background-color:crimson;
+    padding: 10px;
+    border-radius: 50%;
+}
+.info-card p{
+    max-width: 240px;
 }
