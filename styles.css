@@ -34,7 +34,6 @@ nav {
     border: none;
     cursor: pointer;
     font-weight: 400;
-
 }
 
 .side-button{
@@ -116,7 +115,7 @@ nav {
     align-items: center;
 }
 #second-brain .brain-info{
-    padding-left: 50px;
+    padding-left: 50px ;
 }
 .brain-info h4{
     font-size: 15px;
@@ -133,6 +132,16 @@ nav {
 .brain-info ul li{
     font-weight: 300px;
     margin-bottom: 5px;
-    list-style:circle;
-    
+    list-style:circle; 
+}
+/* Early Access Section */
+#early-access {
+    text-align: center;
+    background-color: wheat;
+    padding: 50px 0;
+    margin: 20px 120px;
+    border-radius: 5px;
+}
+#early-access .access-info h1 , p, button , p{
+    margin-bottom: 10px;
 }
