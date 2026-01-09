@@ -36,14 +36,16 @@
 }
 
 .btn{
-    max-width: 194px;
+    max-width: 251px;
+    max-height: 52px;
     padding: 20px 30px;
     border-radius: 5px;
     color: aliceblue;
-    background-color: forestgreen;
+    background-color: #30B868;
     border: none;
     cursor: pointer;
     font-weight: 400;
+    font-size: 600;
 }
 .btn:hover{
     box-shadow: 0 6px 15px ;
@@ -51,6 +53,8 @@
 }
 
 .side-button{
+    /* max-width: 198px;
+    max-height: 52px; */
     padding: 20px 30px;
     margin-left: 10px;
     border: 1px solid white;
@@ -77,6 +81,7 @@
     padding: 10px;
     border-radius: 20px; 
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .banner-title h1{
 
@@ -181,22 +186,23 @@
     margin: 20px 120px; */
     
     max-width: 1600px;
-    padding: 2px 120px 120px 120px;
+    /* max-height: 507px; */
+    
 }
 .access-info{
     max-width: 1360px;
     background-color:#F7F6F2;
     text-align: center;
-    border-radius: 5px;
-    max-width: 1240px;
-    max-height: 338px;
+    border-radius: 12px;
+    padding: 120px;
+    margin: 2px 120px 120px 120px;
 }
 .access-info h1{
     font-size: 40px;
 }
-/* #early-access .access-info h1 , p, button , p{
+#early-access .access-info h1 , p, button , p{
     margin-bottom: 10px;
-} */
+}
 /* Footer Section */
 #about{
     max-width: 1600px;
