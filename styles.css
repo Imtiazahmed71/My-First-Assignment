@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
 }
 
 .open-sans{
@@ -35,13 +34,41 @@ nav {
     border: none;
     cursor: pointer;
     font-weight: 400;
-    /* text-align: center; */
 
 }
-.btn-02{
-
+.banner-button button{
+    
+}
+.side-button{
+    padding: 20px 30px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 400;
+}
+#banner{
+    background: url("assets/hero-bg.png");
+    
 }
 #banner .banner-container{
     text-align: center;
     padding: 100px;
+}
+.early-access-btn{
+    background-color: aliceblue;
+    color: forestgreen;
+    padding: 10px;
+    border-radius: 20px; 
+    margin-bottom: 20px;
+}
+.banner-title h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.banner-title p{
+    color: aliceblue;
+    margin-bottom: 20px;
 }
